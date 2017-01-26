@@ -21,6 +21,6 @@ public class DemoApp {
 		
 		List<User> users = Arrays.asList(new User("Rodrigo", "Villalba"), new User("Leticia", "Pfannl"));
 	
-		users.forEach(u -> repo.save(u));
+		//users.forEach(u -> repo.save(u));
 	}
 }
